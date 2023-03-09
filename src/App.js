@@ -1,17 +1,22 @@
 import React, { Component } from 'react'
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import Aside from './components/Aside';
+import Footer from './components/Footer';
+import Header from './components/Header';
 
 
 class App extends Component {
     render() {
         return (
             <>
-                <div className="container-fluid">
-                    <div className="row">
-                        <div className="col-sm-6 mx-auto">
-                            <h2>TODO List</h2>
+                <div id="container" className="container">
+                    <Header />
+                    <Aside />
+                    <div className="mainpage" id="mainpage">
+                        <div>
+                            <h1>Welcome to the main page.</h1>
                         </div>
                     </div>
+                    <Footer />
                 </div>
             </>
         )
