@@ -29,10 +29,21 @@ body {
     float: left;
 }
 
+.bg-lb {
+    background-color: #333;
+}
+
+.bg-db {
+    background-color: #000;
+}
+
+.bg-w {
+    background-color: #fff;
+}
+
 ul {
     list-style-type: none;
     overflow: hidden;
-    background-color: #333;
     font-size: 20px;
 }
 
@@ -71,7 +82,7 @@ li a {
 .sidepane-ul li {
     float: none;
     margin: 0 2px 2px;
-    background-color: white;
+    background-color: #fff;
     font-size: 15px;
 }
 
@@ -90,7 +101,6 @@ li a {
 
 .footer {
     height: 6%;
-    background-color: #000;
     color: #fff;
     text-align: center;
     padding: 2px;
