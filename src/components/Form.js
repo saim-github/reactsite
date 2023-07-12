@@ -1,4 +1,4 @@
-function HtmlForm() {
+function Form() {
     return (
         <form action="#" method="get">
             <div>
@@ -30,4 +30,4 @@ function HtmlForm() {
     );
 }
 
-export default HtmlForm; 
+export default Form; 

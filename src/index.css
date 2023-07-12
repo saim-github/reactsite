@@ -13,6 +13,33 @@ body {
     width: 98.7vw;
 }
 
+.navlistitems {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Start Grid System */
+.grid-c {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+/* End Grid System*/
+
+.brdr {
+    border: 1px solid red;
+}
+
+.m2 {
+    margin: 2px;
+}
+
+.p2 {
+    padding: 2px;
+}
+
+/* For Homepage items*/
 .m0 {
     margin: 0;
 }
