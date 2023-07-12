@@ -1,12 +1,8 @@
-
 function Footer() {
-    
     return (
-        <>
-            <div className="footer" id="footer">
-                <p>&copy;copyrighted footer section here.</p>
-            </div>
-        </>
+        <footer className="footer bg-lb" id="footer">
+            <p>&copy;copyrighted footer section here.</p>
+        </footer>
     );
 }
 
